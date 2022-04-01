@@ -16,7 +16,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{dupliOfViewModel.includedLayoutText}"
+            android:text="@{dupliOfViewModel.includedLayoutText, default=`Place Holder`}"
             android:textColor="@android:color/holo_green_dark"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
